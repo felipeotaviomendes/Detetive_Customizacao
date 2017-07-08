@@ -1,0 +1,315 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <meta charset="utf-8">
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="detetive.js"></script>
+
+
+    <!-- CSS - Centralizar -->
+    <style type="text/css">
+      #centro {
+        margin: 0 auto;
+        width: 50%;
+      }
+    </style>
+
+
+    <div id="centro">
+      <ul id="tabs-swipe-demo" class="tabs">
+        <li class="tab col s3"><a class="active" href="#test-swipe-1">Caso 1 *</a></li>
+        <li class="tab col s3"><a href="#test-swipe-2">Caso 2 *</a></li>
+        <li class="tab col s3"><a href="#test-swipe-3">Caso 3</a></li>
+      </ul>
+
+
+      <div id="test-swipe-1" class="col s12 white">
+        <br>
+        <br>        
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="descricao1" class="materialize-textarea" data-length="200"></textarea>
+                <label id="descricao1_text" for="descricao1" >Descrição: </label>
+              </div>
+            </div>
+          </form>
+        </div>
+
+
+        <ul class="collapsible" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header" id="caso1_etapa1"><i class="material-icons">mode_edit</i>Primeira Etapa</div>
+            <div class="collapsible-body">
+             <p id='pergunta1_caso1_text'>Entre com a pergunta: <br><p>
+               <input type="text" name="pergunta" id="pergunta1_caso1" size="50" data-length="50" ><br></p>
+
+               <p id='resposta1_caso1_text'>Entre com a resposta: <br><p>
+                 <input type="text" name="resposta" id="resposta1_caso1" size="50" data-length="15"><br></p>
+                 </div>
+               </li>
+
+               <li>
+                <div class="collapsible-header" id="caso1_etapa2"><i class="material-icons">mode_edit</i>Segunda Etapa</div>
+                <div class="collapsible-body">
+                 <p id='pergunta2_caso1_text'>Entre com a pergunta: <br><p>
+                 <input type="text" name="pergunta" id="pergunta2_caso1" size="50" data-length="50"><br></p>
+
+                 <p id='resposta2_caso1_text'>Entre com a resposta: <br><p>
+                 <input type="text" name="resposta" id="resposta2_caso1" size="50" data-length="15"><br></p>
+               </div>
+             </li>
+
+             <li>
+              <div class="collapsible-header" id="caso1_etapa3"><i class="material-icons">mode_edit</i>Terceira Etapa</div>
+              <div class="collapsible-body">
+               <p id='pergunta3_caso1_text'>Entre com a pergunta: <br><p>
+               <input type="text" name="pergunta" id="pergunta3_caso1" size="50" data-length="50"><br></p>
+
+               <p id='resposta3_caso1_text'>Entre com a resposta: <br><p>
+               <input type="text" name="resposta" id="resposta3_caso1" size="50" data-length="15"><br></p>
+             </div>
+           </li>
+
+           <li>
+              <div class="collapsible-header" id="caso1_etapa4"><i class="material-icons">mode_edit</i>Quarta Etapa</div>
+              <div class="collapsible-body">
+               <p id='pergunta4_caso1_text'>Entre com a pergunta: <br><p>
+               <input type="text" name="pergunta" id="pergunta4_caso1" size="50" data-length="50"><br></p>
+
+               <p id='resposta4_caso1_text'>Entre com a resposta: <br><p>
+               <input type="text" name="resposta" id="resposta4_caso1" size="50" data-length="15"><br></p>
+             </div>
+           </li>
+
+           <li>
+              <div class="collapsible-header" id="caso1_etapa5"><i class="material-icons">mode_edit</i>Quinta Etapa</div>
+              <div class="collapsible-body">
+               <p id='pergunta5_caso1_text'>Entre com a pergunta: <br><p>
+               <input type="text" name="pergunta" id="pergunta5_caso1" size="50" data-length="50"><br></p>
+
+               <p id='resposta5_caso1_text'>Entre com a resposta: <br><p>
+               <input type="text" name="resposta" id="resposta5_caso1" size="50" data-length="15"><br></p>
+             </div>
+           </li>
+
+           <li>
+              <div class="collapsible-header" id="caso1_etapa6"><i class="material-icons">mode_edit</i>Última Etapa</div>
+              <div class="collapsible-body">
+               <p id='pergunta6_caso1_text'>Entre com a pergunta: <br><p>
+               <input type="text" name="pergunta" id="pergunta6_caso1" size="50" data-length="50"><br></p>
+
+               <p id='resposta6_caso1_text'>Entre pista final: <br><p><p>
+               <input type="text" name="resposta" id="resposta6_caso1" size="50" data-length="15"><br></p>
+             </div>
+           </li>
+
+         </ul>
+         <br>
+       </div>
+
+
+
+
+       <div id="test-swipe-2" class="col s12 white">
+         <br>
+         <br>              
+         <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="descricao2" class="materialize-textarea" data-length="200"></textarea>
+                <label id="descricao2_text" for="descricao2">Descrição: </label>
+              </div>
+            </div>
+          </form>
+        </div>
+
+
+        <ul class="collapsible" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header" id="caso2_etapa1" ><i class="material-icons">mode_edit</i>Primeira Etapa</div>
+            <div class="collapsible-body">
+             <p id='pergunta1_caso2_text'>Entre com a pergunta: <br><p>
+               <input type="text" name="pergunta" id="pergunta1_caso2" size="50" data-length="50"><br></p>
+
+               <p id='resposta1_caso2_text'>Entre com a resposta: <br><p>
+                 <input type="text" name="resposta" id="resposta1_caso2" size="50" data-length="15"><br></p>
+                 </div>
+               </li>
+
+               <li>
+                <div class="collapsible-header" id="caso2_etapa2" ><i class="material-icons">mode_edit</i>Segunda Etapa</div>
+                <div class="collapsible-body">
+                 <p id='pergunta2_caso2_text'>Entre com a pergunta: <br><p>
+                 <input type="text" name="pergunta" id="pergunta2_caso2" size="50" data-length="50"><br></p>
+
+                 <p id='resposta2_caso2_text'>Entre com a resposta: <br><p>
+                 <input type="text" name="resposta" id="resposta2_caso2" size="50" data-length="15"><br></p>
+               </div>
+             </li>
+
+             <li>
+              <div class="collapsible-header" id="caso2_etapa3" ><i class="material-icons">mode_edit</i>Terceira Etapa</div>
+              <div class="collapsible-body">
+               <p id='pergunta3_caso2_text'>Entre com a pergunta: <br><p>
+               <input type="text" name="pergunta" id="pergunta3_caso2" size="50" data-length="50"><br></p>
+
+               <p id='resposta3_caso2_text'>Entre com a resposta: <br><p>
+               <input type="text" name="resposta" id="resposta3_caso2" size="50" data-length="15"><br></p>
+
+             </div>
+           </li>
+
+           <li>
+              <div class="collapsible-header" id="caso2_etapa4"><i class="material-icons">mode_edit</i>Quarta Etapa</div>
+              <div class="collapsible-body">
+               <p id='pergunta4_caso2_text'>Entre com a pergunta: <br><p>
+               <input type="text" name="pergunta" id="pergunta4_caso2" size="50" data-length="50"><br></p>
+
+               <p id='resposta4_caso2_text'>Entre com a resposta: <br><p>
+               <input type="text" name="resposta" id="resposta4_caso2" size="50" data-length="15"><br></p>
+             </div>
+           </li>
+
+           <li>
+              <div class="collapsible-header" id="caso2_etapa5"><i class="material-icons">mode_edit</i>Quinta Etapa</div>
+              <div class="collapsible-body">
+               <p id='pergunta5_caso2_text'>Entre com a pergunta: <br><p>
+               <input type="text" name="pergunta" id="pergunta5_caso2" size="50" data-length="50"><br></p>
+
+               <p id='resposta5_caso2_text'>Entre com a resposta: <br><p>
+               <input type="text" name="resposta" id="resposta5_caso2" size="50" data-length="15"><br></p>
+             </div>
+           </li>
+
+           <li>
+              <div class="collapsible-header" id="caso2_etapa6"><i class="material-icons">mode_edit</i>Última Etapa</div>
+              <div class="collapsible-body">
+               <p id='pergunta6_caso2_text'>Entre com a pergunta: <br><p>
+               <input type="text" name="pergunta" id="pergunta6_caso2" size="50" data-length="50"><br></p>
+
+               <p id='resposta6_caso2_text'>Entre pista final: <br><p>
+               <input type="text" name="resposta" id="resposta6_caso2" size="50" data-length="15"><br></p>
+             </div>
+           </li>
+
+         </ul>
+         <br>
+       </div>
+
+
+
+       <div id="test-swipe-3" class="col s12 white"> 
+        <br>
+        <br>        
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="descricao3" class="materialize-textarea" data-length="200"></textarea>
+                <label id="descricao3_text" for="descricao3">Descrição: </label>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <ul class="collapsible" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header" id="caso3_etapa1" ><i class="material-icons">mode_edit</i>Primeira Etapa</div>
+            <div class="collapsible-body">
+             <p id='pergunta1_caso3_text'>Entre com a pergunta: <br><p>
+               <input type="text" name="pergunta" id="pergunta1_caso3" size="50" data-length="50"><br></p>
+
+               <p id='resposta1_caso3_text'>Entre com a resposta: <br><p>
+                 <input type="text" name="resposta" id="resposta1_caso3" size="50" data-length="15"><br></p>
+                 </div>
+               </li>
+
+               <li>
+                <div class="collapsible-header" id="caso3_etapa2" ><i class="material-icons">mode_edit</i>Segunda Etapa</div>
+                <div class="collapsible-body">
+                 <p id='pergunta2_caso3_text'>Entre com a pergunta: <br><p>
+                 <input type="text" name="pergunta" id="pergunta2_caso3" size="50" data-length="50"><br></p>
+
+                 <p id='resposta2_caso3_text'>Entre com a resposta: <br><p>
+                 <input type="text" name="resposta" id="resposta2_caso3" size="50" data-length="15"><br></p>
+               </div>
+             </li>
+
+             <li>
+              <div class="collapsible-header" id="caso3_etapa3" ><i class="material-icons">mode_edit</i>Terceira Etapa</div>
+              <div class="collapsible-body">
+               <p id='pergunta3_caso3_text'>Entre com a pergunta: <br><p>
+               <input type="text" name="pergunta" id="pergunta3_caso3" size="50" data-length="50"><br></p>
+
+               <p id='resposta3_caso3_text'>Entre com a resposta: <br><p>
+               <input type="text" name="resposta" id="resposta3_caso3" size="50" data-length="15"><br></p>
+
+             </div>
+           </li>
+
+           <li>
+              <div class="collapsible-header" id="caso3_etapa4"><i class="material-icons">mode_edit</i>Quarta Etapa</div>
+              <div class="collapsible-body">
+               <p id='pergunta4_caso3_text'>Entre com a pergunta: <br><p>
+               <input type="text" name="pergunta" id="pergunta4_caso3" size="50" data-length="50"><br></p>
+
+               <p id='resposta4_caso3_text'>Entre com a resposta: <br><p>
+               <input type="text" name="resposta" id="resposta4_caso3" size="50" data-length="15"><br></p>
+
+             </div>
+           </li>
+
+           <li>
+              <div class="collapsible-header" id="caso3_etapa5"><i class="material-icons">mode_edit</i>Quinta Etapa</div>
+              <div class="collapsible-body">
+               <p id='pergunta5_caso3_text'>Entre com a pergunta: <br><p>
+               <input type="text" name="pergunta" id="pergunta5_caso3" size="50" data-length="50"><br></p>
+
+               <p id='resposta5_caso3_text'>Entre com a resposta: <br><p>
+               <input type="text" name="resposta" id="resposta5_caso3" size="50" data-length="15"><br></p>
+             </div>
+           </li>
+
+           <li>
+              <div class="collapsible-header" id="caso3_etapa6"><i class="material-icons">mode_edit</i>Última Etapa</div>
+              <div class="collapsible-body">
+               <p id='pergunta6_caso3_text'>Entre com a pergunta: <br><p>
+               <input type="text" name="pergunta" id="pergunta6_caso3" size="50" data-length="50"><br></p>
+
+               <p id='resposta6_caso3_text'>Entre pista final: <br><p>
+               <input type="text" name="resposta" id="resposta6_caso3" size="50" data-length="15"><br></p>
+             </div>
+           </li>
+
+         </ul>
+         <br>
+        </div>
+
+       <div class="center">
+        <br>
+        <br>
+        <button type="submit" class="btn waves-effect waves-light" onclick="verificaVazio()">Concluir</button>
+
+      </div>
+
+    </div>
+
+  </body>
+  </html>
